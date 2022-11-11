@@ -1,15 +1,62 @@
-h2{
-    color: rgb(6, 128, 107);
+*{
+    font-weight: 100;
 }
-h3{
-    color: rgb(43, 6, 128);
+.header li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px 20px 30px;
+
+    margin: 20px 30px 20px 30px;
 }
-h4{
-    color: rgb(87, 5, 90);
+.header li{
+    display: inline;
+    margin-left: 50px;
+
 }
-h5{
-    color: rgb(95, 128, 6);
+.header li a:hover{
+    background-color: rgb(255, 0, 0);
+    color: black;
+    
+
 }
-h6{
-    color: rgb(16, 128, 6);
+.header{
+    padding: 30px;
+    background-color: rgb(153, 4, 4);
+    list-style: none;
+}
+#h1{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+#h2{
+    font-size: 50px;
+}
+#h3{
+    font-style: italic;
+}
+#h4{
+    width: auto;
+}
+#h5{
+    height: 200px;
+}
+#h6{
+    columns: 2;
+}
+#s-tag{
+    float:right;
+}
+#q-tag{
+    flex-direction: row;
+}
+#utag{
+    text-shadow: 2px;
+}
+#image{
+    float:right;
+}
+#vedio{
+    shape-outside: margin-box;
+}
+#embvedio{
+    box-shadow: 30px;
 }
